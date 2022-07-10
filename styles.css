@@ -2,16 +2,62 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #D9D9D9;
-}
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.container {
-    width: 60%;
+    width: 80vw;
+
     margin: 0 auto;
+    margin-top: 25vh;
+    padding: 8% 12%;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #text {
-    color: #000;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.quotation-comma {
+    position: absolute;
+    top: 22vh;
+    left: 12vw;
+    transform: rotate(-60deg);
+
+    width: 8vw;
+    height: 7vw;
+
+    background-color: rgba(120, 119, 63, 1);
+
+    border-radius: 60% 0%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.two {
+    transform: rotate(-40deg);
+    left: 15vw;
+}
+
+.three {
+    transform: rotate(-35deg);
+    left: 18vw;
+}
+
+.four {
+    transform: rotate(-30deg);
+    left: 21vw;
+}
+
+.five {
+    transform: rotate(-30deg);
+    left: 25vw;
+}
+
+span:nth-child(odd){
+    background-color: rgba(184, 191, 63, 1);
 }
